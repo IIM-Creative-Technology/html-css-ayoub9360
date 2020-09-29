@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
-body, html{
+
+body,
+html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
-header{
+header {
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     z-index: 6;
-    box-shadow: 0px 39px 70px -19px rgba(0,0,0,0.61);
+    box-shadow: 0px 39px 70px -19px rgba(0, 0, 0, 0.61);
     position: fixed;
     width: 100%;
 
 }
 
-nav{
+nav {
     display: flex;
     width: 80%;
     height: 70px;
@@ -25,41 +27,41 @@ nav{
     z-index: 6;
 }
 
-nav img{
+nav img {
     width: 70px;
     height: auto;
 }
 
-nav div{
+nav div {
     display: flex;
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.navigation{
+.navigation {
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    
+
 
 }
 
-.logo{
+.logo {
     width: 50%;
 
 }
 
-.navigation h4{
+.navigation h4 {
     margin: 0 10px;
     color: black;
     font-family: 'Roboto', sans-serif;
     justify-content: end;
 }
 
-.navigation h4:hover{
+.navigation h4:hover {
     transition: 1s;
     color: #EF7428;
     border-bottom: 1px solid #EF7428;
@@ -67,39 +69,148 @@ a{
 
 
 
-main{
-    background: rgb(172,29,0);
+main {
+    background: rgb(172, 29, 0);
     background: linear-gradient(107deg, #ac1d00 0%, #d92845 38%, #f89605 100%);
 
 }
 
-.decouverte{
- width: 80%;
- margin: auto;
- height: 100vh;
- padding-top: 40px;
+.decouverte {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    padding-top: 40px;
 }
 
-.decouverte h1{
+.decouverte h1 {
     font-family: 'Ubuntu', sans-serif;
     color: #ffffff;
     margin: 60px 0 0 100px;
 }
-footer{
+
+footer {
     background-color: #212121;
     color: white;
     padding: 50px 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     color: white;
 }
-.footer a:hover{
+
+.footer a:hover {
     color: #EF7428;
 }
 
-h2, .footer{
+h2,
+.footer {
     margin-left: 100px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
