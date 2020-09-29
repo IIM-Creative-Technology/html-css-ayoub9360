@@ -24,78 +24,119 @@
 
             ?>
         </div>
+        <!-- J'ai commencer la partie en php avec la base de donnée mais je vous met ducoup la version de base
+            <div class="question">
+
+                <p>
+                    <?php 
+
+                        include('include/setting.php');
+                        $selectQuestion = $bdd->query('SELECT question1 FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
+                        $question = $selectQuestion->fetch();
+                        $question = $question['question1'];
+                        echo $question;
+                        
+                    ?>                    
+                </p>
+            </div>
+
+            <div class="reponse">
+
+                <div>
+                    <a href="reponseEnregistrer.php?cheminImage=<?php echo $_GET['cheminImage']; ?>">
+                        <p>
+                            <?php
+                                $selectReponseA = $bdd->query('SELECT reponseA FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
+                                $reponse = $selectReponseA->fetch();
+                                $reponse = $reponse['reponseA'];
+                                echo $reponse;
+                            ?>
+                        </p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="reponseEnregistrer.php?cheminImage=<?php echo $_GET['cheminImage']; ?>">
+                        <p>
+                            <?php
+                                $selectReponseB = $bdd->query('SELECT reponseB FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
+                                $reponse = $selectReponseB->fetch();
+                                $reponse = $reponse['reponseB'];
+                                echo $reponse;
+                            ?>
+                        </p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="reponseEnregistrer.php?cheminImage=<?php echo $_GET['cheminImage']; ?>">
+                        <p>
+                            <?php
+                                $selectReponseC = $bdd->query('SELECT reponseC FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
+                                $reponse = $selectReponseC->fetch();
+                                $reponse = $reponse['reponseC'];
+                                echo $reponse;
+                            ?>
+                        </p>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="reponseEnregistrer.php?cheminImage=<?php echo $_GET['cheminImage']; ?>">
+                        <p>
+                            <?php
+                                $selectReponseD = $bdd->query('SELECT reponseD FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
+                                $reponse = $selectReponseD->fetch();
+                                $reponse = $reponse['reponseD'];
+                                echo $reponse;
+                            ?>
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+        -->
 
         <div class="question">
 
             <p>
-                <?php 
-
-                    include('include/setting.php');
-                    $selectQuestion = $bdd->query('SELECT question1 FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
-                    $question = $selectQuestion->fetch();
-                    $question = $question['question1'];
-                    echo $question;
-                    
-                ?>                    
+                Quel sera l'artiste le plus streamer sur la plateforme ?
             </p>
         </div>
 
         <div class="reponse">
 
             <div>
-                <a href="reponseEnregistrer.php?cheminImage=<?php echo $_GET['cheminImage']; ?>">
+                <a href="reponseEnregistrer.php?cheminImage=admin/upload/55png.png">
                     <p>
-                        <?php
-                            $selectReponseA = $bdd->query('SELECT reponseA FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
-                            $reponse = $selectReponseA->fetch();
-                            $reponse = $reponse['reponseA'];
-                            echo $reponse;
-                        ?>
+                        Reponse A
                     </p>
                 </a>
             </div>
 
             <div>
-                <a href="reponseEnregistrer.php?cheminImage=<?php echo $_GET['cheminImage']; ?>">
+                <a href="reponseEnregistrer.php?cheminImage=admin/upload/55png.png">
                     <p>
-                        <?php
-                            $selectReponseB = $bdd->query('SELECT reponseB FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
-                            $reponse = $selectReponseB->fetch();
-                            $reponse = $reponse['reponseB'];
-                            echo $reponse;
-                        ?>
+                        Reponse B
                     </p>
                 </a>
             </div>
 
             <div>
-                <a href="reponseEnregistrer.php?cheminImage=<?php echo $_GET['cheminImage']; ?>">
+                <a href="reponseEnregistrer.php?cheminImage=admin/upload/55png.png">
                     <p>
-                        <?php
-                            $selectReponseC = $bdd->query('SELECT reponseC FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
-                            $reponse = $selectReponseC->fetch();
-                            $reponse = $reponse['reponseC'];
-                            echo $reponse;
-                        ?>
+                        Reponse C
                     </p>
                 </a>
             </div>
 
             <div>
-                <a href="reponseEnregistrer.php?cheminImage=<?php echo $_GET['cheminImage']; ?>">
+                <a href="reponseEnregistrer.php?cheminImage=admin/upload/55png.png">
                     <p>
-                        <?php
-                            $selectReponseD = $bdd->query('SELECT reponseD FROM sondage WHERE cheminImage = "' . $_GET["cheminImage"] . '"');
-                            $reponse = $selectReponseD->fetch();
-                            $reponse = $reponse['reponseD'];
-                            echo $reponse;
-                        ?>
+                        Reponse D
                     </p>
                 </a>
             </div>
-
-        </div>
-
     </main>
 
     <?php include('include/footer.php') ?>
