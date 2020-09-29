@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+body, html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    z-index: 6;
+    box-shadow: 0px 39px 70px -19px rgba(0,0,0,0.61);
+    position: fixed;
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    height: 70px;
+    justify-content: end;
+    z-index: 6;
+}
+
+nav img{
+    width: 70px;
+    height: auto;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.logo{
+    width: 50%;
+
+}
+
+.navigation h4{
+    margin: 0 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    justify-content: end;
+}
+
+.navigation h4:hover{
+    transition: 1s;
+    color: #EF7428;
+    border-bottom: 1px solid #EF7428;
+}
+
+
+
+main{
+    background: rgb(172,29,0);
+    background: linear-gradient(107deg, #ac1d00 0%, #d92845 38%, #f89605 100%);
+
+}
+
+.decouverte{
+ width: 80%;
+ margin: auto;
+ height: 100vh;
+ padding-top: 40px;
+}
+
+.decouverte h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    margin: 60px 0 0 100px;
+}
+footer{
+    background-color: #212121;
+    color: white;
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: #EF7428;
+}
+
+h2, .footer{
+    margin-left: 100px;
+}

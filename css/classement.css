@@ -1,0 +1,57 @@
+.classement{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.classement div{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.classement div img {
+    border-radius: 1000px;
+    display: block;
+    margin: auto;
+}
+
+.premier img{
+    width: 100%;
+    
+}
+
+.deuxieme img{
+    width: 80%;
+}
+
+.troisieme img{
+    width: 70%;
+}
+
+main h1{
+    padding-left: 0;
+    text-align: center;
+}
+
+.premier, .premier h1{
+    font-size: 1.9em;
+    color: #ffffff;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important;
+}
+
+.deuxieme, .deuxieme h1 {
+    font-size: 1.5em;
+    color: #ffffff;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important;
+}
+
+.troisieme, .troisieme h1 {
+    font-size: 1.3em;
+    color: #ffffff;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important;
+
+}
+main p{
+    font-size: 0.8em;
+}

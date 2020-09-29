@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+main {
+    background: rgb(172, 29, 0);
+    background: linear-gradient(107deg, #ac1d00 0%, #d92845 38%, #f89605 100%);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.explication{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explication h1{
+    font-size: 2.3em;
+    padding-left: 0;
+    padding-top: 0;
+    color: white;
+}
+
+.explication p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+.main {
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 0px;
+    padding-bottom: 100px;
+}
+
+main h1 {
+    margin-top: 0;
+    padding-top: 130px;
+    padding-left: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+
+}
+
+.tableauSondage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.sondage {
+    width: 25%;
+    margin: 10px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sondage img {
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+h3{
+    color: black;
+}
+
+#commencer{
+    color: white;
+    margin-top:15px;
+    padding: 15px 40px;
+    background-color: #EF7428;
+    border-radius: 3px;
+    border: 2px solid white;
+}
+
+#classement, #classement h1, #classement div h3{
+    background-color: #ef752a00;
+    color: white;
+}
