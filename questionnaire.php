@@ -100,7 +100,9 @@
         <div class="question">
 
             <p>
-                Quel sera l'artiste le plus streamer sur la plateforme ?
+                <?php
+                    echo $_GET['question'];
+                ?>
             </p>
         </div>
 

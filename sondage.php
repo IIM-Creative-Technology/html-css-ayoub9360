@@ -54,42 +54,42 @@
                     ?>
                 -->
                 <div class="sondage">
-                    <a href="questionnaire.php?cheminImage=admin/upload/55png.png">
+                    <a href="questionnaire.php?cheminImage=admin/upload/55png.png&question=Quel%20sera%20le%20chanteur%20le%20plus%20streamer%20?">
                         <img src="admin/upload/55png.png">
                     </a>
                     <h3> Spotify</h3>
                 </div>
 
                 <div class="sondage">
-                    <a href="questionnaire.php?cheminImage=admin/upload/54png.png">
+                    <a href="questionnaire.php?cheminImage=admin/upload/54png.png&question=Quel%20serie%20sortiras%20le%20plus%20rapidement%20?">
                         <img src="admin/upload/54png.png">
                     </a>
                     <h3> Netflix</h3>
                 </div>
 
                 <div class="sondage">
-                    <a href="questionnaire.php?cheminImage=admin/upload/53png.png">
+                    <a href="questionnaire.php?cheminImage=admin/upload/53png.png&question=Quel%20serie%20sortiras%20le%20plus%20rapidement%20?">
                         <img src="admin/upload/53png.png">
                     </a>
                     <h3> Koh Lanta</h3>
                 </div>
 
                 <div class="sondage">
-                    <a href="questionnaire.php?cheminImage=admin/upload/52jpeg.png">
+                    <a href="questionnaire.php?cheminImage=admin/upload/52jpeg.png&question=Quel%20serie%20sortiras%20le%20plus%20rapidement%20?">
                         <img src="admin/upload/52jpeg.png">
                     </a>
                     <h3> Apple</h3>
                 </div>
 
                 <div class="sondage">
-                    <a href="questionnaire.php?cheminImage=admin/upload/51jpg.png">
+                    <a href="questionnaire.php?cheminImage=admin/upload/51jpg.png&question=Quel%20serie%20sortiras%20le%20plus%20rapidement%20?">
                         <img src="admin/upload/51jpg.png">
                     </a>
                     <h3> Foot</h3>
                 </div>
 
                 <div class="sondage">
-                    <a href="questionnaire.php?cheminImage=upload/32png.png">
+                    <a href="questionnaire.php?cheminImage=upload/32png.png&question=Quel%20serie%20sortiras%20le%20plus%20rapidement%20?">
                         <img src="upload/32png.png">
                     </a>
                     <h3> Twitch</h3>
