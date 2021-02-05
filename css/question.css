@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+main{
+    background: rgb(172, 29, 0);
+    background: linear-gradient(125deg, rgba(172, 29, 0, 1) 0%, rgba(217, 40, 69, 1) 38%, rgba(248, 150, 5, 1) 100%);    
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+.imgPrincipale{
+    width: 40%;
+    margin: 80px auto 50px auto;
+}
+
+.imgPrincipale img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.question{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+.reponse{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.reponse div{
+    width: 40%;
+    background-color: #ffffff;
+    margin: 15px 0;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.myButton {
+    color: #000000;
+    border-color: #ffffff!important;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: #ffffff;
+
+    font-size: 20px;
+    font-weight: 500;
+    padding: .3em 1em;
+    line-height: 1.7em!important;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    border-radius: 20px;
+
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#classement, .deuxieme h1, .premier h1, .troisieme h1{
+    color: white;
+}
